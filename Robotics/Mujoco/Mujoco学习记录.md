@@ -10,6 +10,10 @@ Mujoco官网：[MuJoCo 官方文档](https://mujoco.readthedocs.io/en/stable/ove
 # 二、搭建机器人模型
 
 ## 1. 使用SW转URDF,URDF转MJCF
+- SW ->URDF
+  详情请见Vinvi战队ROS2教程[ROS2机器人操作系统教程](https://www.sdutvincirobot.top/wiki/2023-12-30-ros2-tutorial/0900-ke-shi-hua-ping-tai-rviz2-yu-urdf-jian-mo-yu-yan#sw2urdf)
+![901](Pasted%20image%2020260721235907.png)
+
 - URDF->MJCF
 ```bash
 #调用
