@@ -1,7 +1,7 @@
 
-# **kubuntu系列**
+##  **kubuntu系列**
 
-## 1.安装软件
+### 1.安装软件
 
 ![738](https://sdutvincirobot.feishu.cn/space/api/box/stream/download/asynccode/?code=NzBhYzgzOTMwOTBlYjViZjM5Mzk2MWNhZTBhNDRhMzRfWHp2Q3RqYU1wUWUzZmo4Skk5Njk4c2Q3WGQ4ZVcyTklfVG9rZW46Q3piUWJGQmJTb3RoYUN4QnpqTmNwRUVqbmJoXzE3ODQ2NDc0NDU6MTc4NDY1MTA0NV9WNA&add_watermark=true&scene_type=CCM)
 
@@ -11,7 +11,7 @@
 
 ![612](https://sdutvincirobot.feishu.cn/space/api/box/stream/download/asynccode/?code=NjY2MjJiMTczNWY0NWUwZTNkMWU1NDU2OWNmODYzYjNfdTBQWmZPZ3VtVDU4WG1XaGZpSGVFN2pDRUpXaG9oRHVfVG9rZW46TXBDbWJVbVBnb2pEVHp4bHRVaWMzQ0JGbjRBXzE3ODQ2NDc0NDU6MTc4NDY1MTA0NV9WNA&add_watermark=true&scene_type=CCM)
 
-## 2.代理问题（clash开隧道，记得开服务模式，直接解决）
+### 2.代理问题（clash开隧道，记得开服务模式，直接解决）
 
 - ~~W: 无法下载~~ ~~http://mirrors.sohu.com/ubuntu/dists/zesty/InRelease~~ ~~无法连接上 127.0.0.1:42165 (127.0.0.1)。 connect (111: 拒绝连接)~~
     
@@ -65,7 +65,7 @@
 
 ~~Linux打开图形界面的网络设置。~~
 
-## 3.root权限访问文件夹
+### 3.root权限访问文件夹
 
 ```Bash
 sudo nautilus
@@ -83,7 +83,7 @@ exit
 
   
 
-## 4.linux安装VMware
+### 4.linux安装VMware
 
 ```Shell
 ##安装依赖
@@ -97,15 +97,15 @@ sudo ./VMware-Workstation-Full-17.5.1-23298084.x86_64.bundle
 
 ![597](https://sdutvincirobot.feishu.cn/space/api/box/stream/download/asynccode/?code=NGRhMTA3NDEyYmU4YzgwNmIwYTQ0N2U2OWMyOGMwZTVfVWw4dDlscXUybzIyampNWHdGZzJWbFBzT3lXR1BlUWNfVG9rZW46WWc1NWI5YmZRb202UWp4ejJpTWN3QXpSbklkXzE3ODQ2NDc0NDU6MTc4NDY1MTA0NV9WNA&add_watermark=true&scene_type=CCM)
 
-## 5.串口助手
+### 5.串口助手
 
 ![601](https://sdutvincirobot.feishu.cn/space/api/box/stream/download/asynccode/?code=YjJmODg0NTFiMzE5MWNhNjEzM2UwMDhhZTU1NDUwNDJfeWlWR2RGeDRPelk4RmJtRnA0SmdCS2llazRNNms1cXFfVG9rZW46VmNGNWI2Z2Jmb3VlS3N4UnZHWmNMZ3AwbjVnXzE3ODQ2NDc0NDU6MTc4NDY1MTA0NV9WNA&add_watermark=true&scene_type=CCM)
 
-## 6.kubuntu24.04 LTS无法安装clash，缺少依赖的问题
+### 6.kubuntu24.04 LTS无法安装clash，缺少依赖的问题
 
 使用以下网站解决问题：https://www.clashverge.dev/faq/linux.html
 
-## 7.安装显卡驱动之后亮度调节问题
+### 7.安装显卡驱动之后亮度调节问题
 
 1.按照学长的方法更改xorg无效
 
@@ -118,7 +118,7 @@ sudo apt install xbacklight
 xbacklight -set 50
 ```
 
-## 8.kubuntu24.04 windows硬盘分区挂载失败问题：
+### 8.kubuntu24.04 windows硬盘分区挂载失败问题：
 
 ```Bash
 #查找有哪些分区
@@ -199,7 +199,7 @@ mount | grep nvme0n1p4              #检查挂载
 her,blksize=4096)                   #正确使用
 ```
 
-## 9.QQ音乐在kubuntu24.04闪退问题
+### 9.QQ音乐在kubuntu24.04闪退问题
 
 ```Bash
 sudo vi /usr/share/applications/qqmusic.desktop
@@ -213,7 +213,7 @@ sudo vi /usr/share/applications/qqmusic.desktop
 
 成功解决！
 
-## **10. 权限不足导致无法访问**
+### **10. 权限不足导致无法访问**
 
 #### **原因：**
 
@@ -231,15 +231,15 @@ bash
 
   
 
-# Fedora 系列
+## Fedora 系列
 
-## 1.Fedora Update 
+### 1.Fedora Update 
 [Fedora 升级系统版本](https://www.sysgeek.cn/upgrade-fedora-to-latest-release/)
 
-## 2. linux 下的bilibili客户端
+### 2. linux 下的bilibili客户端
 [bilibili](https://github.com/msojocs/bilibili-linux)
 
-##  3. 很多软件安装之后不显示中文字体,多半是没有安装
+###  3. 很多软件安装之后不显示中文字体,多半是没有安装
     
 
 ![378](https://sdutvincirobot.feishu.cn/space/api/box/stream/download/asynccode/?code=OWE4NDUyNjVlZmRkOGZlNTlmNTE5MDk3NmMyOGQ4ZGVfMWRwUmI2dFM2SXRoM2IzWmFNZVRSN1Y3bDhtYUxUQzFfVG9rZW46V2MyRmI1N0Vwb2FIZm94akNxRGNJQVczbmxyXzE3ODQ2NDc0NDU6MTc4NDY1MTA0NV9WNA&add_watermark=true&scene_type=CCM)
@@ -262,14 +262,14 @@ fc-list :lang=zh | wc -l
 
 成功解决!
 
-## 4.  vscode配置 Symbols Nerd Font Mono字体
+### 4.  vscode配置 Symbols Nerd Font Mono字体
     
 
 ![769](https://sdutvincirobot.feishu.cn/space/api/box/stream/download/asynccode/?code=MDEzMDkzNDk0N2RlYzIwMmIwYTM2MDFiNzk2MmM3MzNfajNxU3dFSkZkZnhkZm8wTjNVdkRiN3p6VFo5U0Y1bE1fVG9rZW46T3lHNWJVVDk5bzg2T1J4RWxzYmNONXR2bjBmXzE3ODQ2NDc0NDU6MTc4NDY1MTA0NV9WNA&add_watermark=true&scene_type=CCM)
 
-# 适用于所有linux系列
+## 适用于所有linux系列
 
-##  1. 更改文件所有者
+###  1. 更改文件所有者
 
 ```Bash
 ls -l  #查看文件所有者
@@ -294,7 +294,7 @@ drwxrwxrwx. 4 xiaofang xiaofang 4096 Oct 25 19:26 navigation2_config
  
 ```
 
-##  2. 创建软件图标
+###  2. 创建软件图标
 
 ```Bash
 cd ~/.local/share/applications/
@@ -323,10 +323,10 @@ Network（网络）
 Office（办公）
 ```
 
-# Linux美化与体验优化
+## Linux美化与体验优化
 
-##  1. 终端美化
-###  1.1美化提示符 （使用starship）
+###  1. 终端美化
+####  1.1美化提示符 （使用starship）
 1. 下载好字体还有配置文件
 [starship](https://starship.rs/)
 
@@ -352,11 +352,11 @@ vim ~/.bashrc
 eval "$(starship init bash)"
 ```
 
-##  2.终端文件显示
+###  2.终端文件显示
 [使用yazi](https://yazi-rs.github.io/docs/quick-start)
 
-## 3.Wayland 窗口管理器美化 NiRi DMS
-### OBS在niri下无法录制屏幕的问题
+### 3.Wayland 窗口管理器美化 NiRi DMS
+#### OBS在niri下无法录制屏幕的问题
 - 原因：原来在KDE下面，转到niri之后缺少驱动 `xdg-desktop-portal-gnome`
 - 解决方法:重新安装这个驱动
 ```bash

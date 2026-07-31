@@ -1,0 +1,23 @@
+{
+  "things-style@@mobile-black-background": false,
+  "things-style@@floating-button-off": false,
+  "things-style@@active-line": true,
+  "things-style@@fancy-code": true,
+  "things-style@@fancy-highlight": true,
+  "things-style@@no-kanban-styles": false,
+  "anuppuccin-theme-settings@@anuppuccin-theme-light": "ctp-rosepine-light",
+  "anuppuccin-theme-settings@@anuppuccin-theme-dark": "ctp-mocha-old",
+  "anuppuccin-theme-settings@@anuppuccin-accent-toggle": true,
+  "anuppuccin-theme-settings@@anp-active-line": "anp-current-line-border",
+  "anuppuccin-theme-settings@@anp-toggle-preview": false,
+  "anuppuccin-theme-settings@@anp-autohide-titlebar": false,
+  "anuppuccin-theme-settings@@anp-toggle-metadata": false,
+  "anuppuccin-theme-settings@@anp-toggle-scrollbars": false,
+  "anuppuccin-theme-settings@@anp-hide-external-link-icon": true,
+  "anuppuccin-theme-settings@@anp-colorful-frame-icon-toggle-dark": true,
+  "anuppuccin-theme-settings@@anp-pdf-blend-toggle-dark": false,
+  "things-style@@strong-color": "#829EFF",
+  "things-style@@text-highlight-bg-d": "#1233FF",
+  "things-style@@em-color": "#034CF3",
+  "things-style@@default-font-color": true
+}

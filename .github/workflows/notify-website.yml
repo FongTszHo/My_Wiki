@@ -1,0 +1,18 @@
+name: Notify personal website
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  notify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trigger Wiki deployment
+        env:
+          GH_TOKEN: ${{ secrets.WEBSITE_DISPATCH_TOKEN }}
+        run: |
+          gh api --method POST \
+            repos/FongTszHo/fongtszho.web/dispatches \
+            -f event_type=wiki-updated
