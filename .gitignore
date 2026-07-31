@@ -1,0 +1,10 @@
+# Obsidian trash
+.trash/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Obsidian workspace
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
