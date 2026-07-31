@@ -11,59 +11,8 @@
 
 ![612](https://sdutvincirobot.feishu.cn/space/api/box/stream/download/asynccode/?code=NjY2MjJiMTczNWY0NWUwZTNkMWU1NDU2OWNmODYzYjNfdTBQWmZPZ3VtVDU4WG1XaGZpSGVFN2pDRUpXaG9oRHVfVG9rZW46TXBDbWJVbVBnb2pEVHp4bHRVaWMzQ0JGbjRBXzE3ODQ2NDc0NDU6MTc4NDY1MTA0NV9WNA&add_watermark=true&scene_type=CCM)
 
-### 2.代理问题（clash开隧道，记得开服务模式，直接解决）
-
-- ~~W: 无法下载~~ ~~http://mirrors.sohu.com/ubuntu/dists/zesty/InRelease~~ ~~无法连接上 127.0.0.1:42165 (127.0.0.1)。 connect (111: 拒绝连接)~~
-    
-
-~~W: 无法下载~~ ~~http://mirrors.sohu.com/ubuntu/dists/zesty-updates/InRelease~~ ~~不能连接到 127.0.0.1：42165：~~
-
-~~W: 无法下载~~ ~~http://mirrors.sohu.com/ubuntu/dists/zesty-backports/InRelease~~ ~~不能连接到 127.0.0.1：42165：~~
-
-~~W: 无法下载~~ ~~http://mirrors.sohu.com/ubuntu/dists/zesty-security/InRelease~~ ~~不能连接到 127.0.0.1：42165：~~
-
-- ~~W: 无法下载~~ ~~http://ppa.launchpad.net/diesch/testing/ubuntu/dists/zesty/InRelease~~ ~~无法连接上 127.0.0.1:42165 (127.0.0.1)。 connect (111: 拒绝连接)~~
-    
-- ~~W: 无法下载~~ ~~http://archive.ubuntukylin.com:10006/ubuntukylin/dists/xenial/InRelease~~ ~~无法连接上 127.0.0.1:42165 (127.0.0.1)。 connect (111: 拒绝连接)~~
-    
-- ~~W: 无法下载~~ ~~http://packages.microsoft.com/repos/vscode/dists/stable/InRelease~~ ~~无法连接上 127.0.0.1:42165 (127.0.0.1)。 connect (111: 拒绝连接)~~
-    
-
-~~W: 部分索引文件下载失败。如果忽略它们，那将转而使用旧的索引文件。~~
-
-~~其实这是以为你的Linux中的代理网址还未消除，而你现在又为使用代理上网的原因，~~
-
-~~好比这样，你下了一个vpn的软件，你只是在需要的时候使用他，所以在你使用过代理上网时，系统和就自动为你添上了代理上网的设置，HTTP_FROXY这个设置，所以当你没使用他的时候，你的代理上网的设置依然还在，所以就存在了这样一个问题，至于怎样检测这个问题是否存在，你可以使用命令~~
-
-~~env | grep -i proxy~~ ~~检测~~
-
-~~命令显示：~~
-
-~~http_proxy=~~~~http://localhost:42165~~
-
-~~HTTP_PROXY=~~~~http://localhost:42165~~
-
-~~或者显示其他，但是大致内容有http_proxy 和HTTP_PROXY这两项内容中的一项或者两项，~~
-
-~~现在开始开始删除这两个环境变量~~
-
-~~为了方便我们写一个bash 脚本~~
-
-~~内容为：~~
-
-~~#!bin/bash~~
-
-~~unset http_proxy~~
-
-~~unset HTTP_PROXY~~
-
-~~写好之后保存并运行，好了现在我们来进一步的工作，~~
-
-~~利用代码可以~~~~sudo gedit /etc/environment~~~~删除最后存在的包含http_proxy 和HTTP_PROXY的项，就可以了，其实这一步大可以不必，但是前提你要看一下你的Linux能不能正常使用apt-get update这个命令，不能再继续删除也可以。~~
-
-~~讲了那么多其实只是一个很简单的去除代理的方法，，其实很简单，在这里了叫大家一个更简单的方法~~
-
-~~Linux打开图形界面的网络设置。~~
+### 2.代理问题
+（clash开隧道模式，记得开服务模式，直接解决）
 
 ### 3.root权限访问文件夹
 
