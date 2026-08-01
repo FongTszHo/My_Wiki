@@ -1,15 +1,19 @@
-
+---
+description: 记录学习Mujoco的过程
+---
 📖参考资料：
 Mujoco官网：[MuJoCo 官方文档](https://mujoco.readthedocs.io/en/stable/overview.html)
+
 学习连接: [MuJoCo 学习参考](https://github.com/Albusgive/mujoco_learning/tree/main)
+
 学习视频链接[【教程】2025新版mujoco建模与仿真](https://www.bilibili.com/video/BV1wMdHYVEnx?vd_source=6bb9dc8d77886fc937032b139ad7debc)
-# 一、环境安装
+## 一、环境安装
 
 观看视频安装即可
 
-# 二、搭建机器人模型
+## 二、搭建机器人模型
 
-## 1. 使用SW转URDF,URDF转MJCF
+### 1. 使用SW转URDF,URDF转MJCF
 - SW ->URDF
   详情请见Vinvi战队ROS2教程[ROS2机器人操作系统教程](https://www.sdutvincirobot.top/wiki/2023-12-30-ros2-tutorial/0900-ke-shi-hua-ping-tai-rviz2-yu-urdf-jian-mo-yu-yan#sw2urdf)
 ![505](Pasted%20image%2020260721235907.png)
@@ -22,10 +26,10 @@ Mujoco官网：[MuJoCo 官方文档](https://mujoco.readthedocs.io/en/stable/ove
 /home/xiaofang/Applications/mujoco-3.7.0/bin/compile /you_URDF_file_path  /MJCF_path
 ```
 
-# 三、使用C++开发
+## 三、使用C++开发
 
-## main 运行方式 
-### 1. 使用官方的 bassic.cc
+### main 运行方式 
+#### 1. 使用官方的 bassic.cc
 打开模型
 ```c++
 //模型打开
@@ -34,7 +38,7 @@ char error[1000] = "Could not load binary model";
 m = mj_loadXML("../models/car.xml", 0, error, 1000);
 ```
 
-### 2. 使用AI改造的main.cc （更加简洁，只有基本的配置）
+#### 2. 使用AI改造的main.cc （更加简洁，只有基本的配置）
 ```c++
 //maoi.cc
 
@@ -553,7 +557,7 @@ mjvPerturb pert_{};
 
 };
 ```
-### 3. 使用官方的simulator（拥有官方的simulator界面按钮）
+#### 3. 使用官方的simulator（拥有官方的simulator界面按钮）
 1. 将simulator文件夹下的所有文件复制到自己的工程文件下面`src/`  除了`cmake/` 文件夹之外的文件
 ![598](Pasted%20image%2020260721231329.png)
 2. 更改`CMakeListst.txt`
@@ -674,8 +678,8 @@ MUJOCO_GL=egl \
 
 
 
-## 问题专项
-### 一、解决方针启动卡顿问题
+### 问题专项
+#### 一、解决方针启动卡顿问题
 （此处使用fish，bash等其他shell同理）
 - 原因:没有使用nvidia显卡启动仿真
 - 新建run.fish在里面写运行程序的脚本

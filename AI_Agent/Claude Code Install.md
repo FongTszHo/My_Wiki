@@ -1,7 +1,10 @@
+---
+description: 安装Claude Code 简易方式
+---
 资料
 > [菜鸟教程 - Claude Code 安装](https://www.runoob.com/claude-code/claude-code-install.html)
 > [Claude Code 官方文档 - 快速开始](https://code.claude.com/docs/zh-CN/quickstart#native-install-recommended)
-# 一、安装 claude
+## 一、安装 claude
 使用官方命令行安装
 ```bash
 curl -fsSL https://claude.ai/install.sh | bash
@@ -21,7 +24,7 @@ claude --version
 ```
 
 
-# 安装CC switch
+## 安装CC switch
 > [CC Switch 官网](https://ccswitch.io/zh/)
 
 deepseek接入cc 

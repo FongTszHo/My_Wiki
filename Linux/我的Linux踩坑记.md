@@ -1,4 +1,6 @@
-
+---
+description: 记录学习Linux过程中踩过的各种坑
+---
 ##  **kubuntu系列**
 
 ### 1.安装软件
@@ -18,12 +20,10 @@
 
 ```Bash
 sudo nautilus
-
 #更改root密码：
 sudo passwd root
-
 #进入root：
-   su -    
+su -    
 #输入密码：666    
 #退出root：
 su user_name
@@ -34,7 +34,7 @@ exit
 
 ### 4.linux安装VMware
 
-```Shell
+```Bash
 ##安装依赖
 sudo apt update 
 sudo apt install build-essential linux-headers-generic
@@ -103,10 +103,7 @@ sudo umount /media/xiaofangtongxue/WIN_C
 ```Bash
 #使用以下命令获取分区的 UUID：
 sudo blkid /dev/nvme1n1p4
-
-
 sudo vim /etc/fstab
-
 #更改   UUID=xxxx-xxxx  /media/xiaofangtongxue/Text\040and\040Game  ntfs  defaults,rw  0  0
 ```
 

@@ -21,8 +21,6 @@
 
 ### 3.  Linux 系统与实战 (Linux & System)
 *核心领域：系统底层与驱动开发*
-- **项目实战**:
-    - `NiRi_DMS_using_Clue`: 基于Clue的驾驶员监控系统 (DMS) 项目实践。
 - **工具与技巧**:
     - `using_yazi`: 终端文件管理器 Yazi 的使用心得。
     - `我的Linux踩坑记`: 记录在Linux环境配置、驱动编译中遇到的坑与解决方案。
